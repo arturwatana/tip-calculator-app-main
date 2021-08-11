@@ -24,21 +24,21 @@
       <div class="tittle">
             Bill
       </div>
-  <input type="text" id="bill" placeholder="Bill">
+  <input type="number" id="bill"  class="inputs"placeholder="Bill" value="500">
     </div>
 
     <div class="middle-left">
       <div class="tittle">
          Select Tip %
         </div>
-      <div class="groupTips">
+      <div id="groupTips">
     
-      <button type="button" class="button">5%</button>
-      <button type="button" class="button">10%</button>
-      <button type="button" class="button">15%</button>
-      <button type="button" class="button">25%</button>
-      <button type="button" class="button">50%</button>
-      <input type="text" id="custom" placeholder="Custom">
+      <button id="button5"type="button" class="button" value="5">5%</button>
+      <button id="button10"type="button" class="button" value="10">10%</button>
+      <button id="button15"type="button" class="button" value="15">15%</button>
+      <button id="button25"type="button" class="button" value="25">25%</button>
+      <button id="button50"type="button" class="button" value="50">50%</button>
+      <input id="custom" type="number" id="custom" placeholder="Custom">
   
       
       </div>
@@ -51,28 +51,46 @@
     <div class="tittle">    
       Number of People
    </div>
-  <input type="text" id="numberOfPeople" placeholder="Number of People">
+  <input type="number" id="numberOfPeople" class="inputs"placeholder="Number of People">
 </div>
-
-   
-</div>
-
-
 
 <div class="right">
-  Tip Amount
-  / person
-
-  Total
-  / person
-
-  Reset
+  <div class="top-right">
+    <div class="text-right">
+      <div class="tittle-right"> Tip Amount</div>
+      <div class="secondTittle">  / person</div>
+    </div>
+  <div id="tipAmount" class="total">
+      123
+  </div>
 </div>
+  
+
+<div class="middle-right">
+    <div class="text-right">
+      <div class="tittle-right">Total</div>
+      <div class="secondTittle">/ person</div>
+    </div>
+    <div id="totalPerson" class="total">
+      123
+    </div>
+</div>
+
+
+<button type="button" id="buttonReset">Reset</button>
+</div>
+</div>
+</div>
+
+
+
+
 </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="script.js"/>
 </body>
 </html>
