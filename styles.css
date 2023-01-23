@@ -1,81 +1,55 @@
-body{
-
+body {
   background-color: hsl(185, 41%, 84%);
-  font-size:24px;
-  font-family: 'Space Mono';
-  margin:0;
-  padding:0;
+  font-size: 24px;
+  font-family: "Space Mono";
+  margin: 0;
+  padding: 0;
 }
 
-.modal{
-
-  
+.modal {
   width: 800px;
   height: 400px;
   margin-top: 250px;
   margin-left: 30%;
   background-color: white;
   border-radius: 8px;
-  display:flex;
+  display: flex;
 }
 
-
-
-.left{
-
- 
+.left {
   width: 350px;
   height: 300px;
   margin: 1.5em 2em 0 2em;
-  
 }
 
-
-.right{
-
-border: 1px solid blue;
-height:300px;
-width: 350px;
-margin: 1.5em 2em 0 0;
-background-color: #00474b;
-
-
-
-
+.right {
+  border: 1px solid blue;
+  height: 300px;
+  width: 350px;
+  margin: 1.5em 2em 0 0;
+  background-color: #00474b;
 }
 
-
-.middle-left{
- 
-
- width: 100%;
- height: 50%;
- padding: 0.5em 0 0 0;
-
- 
-  
+.middle-left {
+  width: 100%;
+  height: 50%;
+  padding: 0.5em 0 0 0;
 }
 
-.inputs{
-
+.inputs {
   border-radius: 4px;
-  height:25px;
-  width:calc(100% - 14px) ;
+  height: 25px;
+  width: calc(100% - 14px);
   padding: 0 7px;
   color: hsl(183, 100%, 15%);
   text-align: right;
-  
-  
 }
 
-.tittle{
-
+.tittle {
   color: gray;
- 
 }
 
-.button{
-
+.button {
   background-color: hsl(183, 100%, 15%);
   height: 30px;
   width: 75px;
@@ -83,74 +57,55 @@ background-color: #00474b;
   color: white;
   margin: 5px 10px 2px 10px;
   border: none;
-
-  
 }
 
-#groupTips{
-
-  
-  
+#groupTips {
   margin-top: 5px;
   font-weight: bold;
 }
 
-#custom{
-
+#custom {
   background-color: white;
   height: 30px;
-   width: 68px;
-   margin-left: 9px;
+  width: 68px;
+  margin-left: 9px;
   color: black;
   text-align: right;
   border-radius: 4px;
 }
 
-.tittle-right{
-
-  color:white;
+.tittle-right {
+  color: white;
   font-size: 20px;
-  
-  border: 1px solid red;
-  margin: 3em 0 0 2em; 
+
+  margin: 3em 0 0 2em;
 }
 
-.secondTittle{
-
+.secondTittle {
   color: gray;
-  font-size:14px;
+  font-size: 14px;
   margin: 0 0 0 2.7em;
 }
 
 .total {
-
-  color: #2DC2AC;
-  border: 1px solid red;
+  color: #2dc2ac;
   display: inline-block;
   margin: 2.5em 0 0 4.5em;
-  
-  
 }
-#totalPerson{
-
+#totalPerson {
   margin: 2.5em 0 0 6.8em;
 }
-.top-right{
-
-  display:flex;
-
+.top-right {
+  display: flex;
 }
 
-.middle-right{
-
-  display:flex;
-
+.middle-right {
+  display: flex;
 }
 
-#buttonReset{
-
+#buttonReset {
   margin: 5em 0 0 2.5em;
-  width:80%;
-  background-color: #26C2AD;
+  width: 80%;
+  background-color: #26c2ad;
   border-radius: 4px;
 }
