@@ -4,6 +4,7 @@ body {
   font-family: "Space Mono";
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .modal {
@@ -14,6 +15,10 @@ body {
   background-color: white;
   border-radius: 8px;
   display: flex;
+}
+#msgError {
+  font-size: 18px;
+  margin-top: 5px;
 }
 
 .left {
@@ -104,7 +109,7 @@ body {
 }
 
 #buttonReset {
-  margin: 5em 0 0 2.5em;
+  margin: 2em 0 0 2.5em;
   width: 80%;
   background-color: #26c2ad;
   border-radius: 4px;
